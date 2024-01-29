@@ -1,13 +1,15 @@
-console.log( new Date(),"date / shows full time")
-console.log( new Date().getTime(), "get time ")
-console.log( new Date().getHours(), "get hours / shows hours digit")
-console.log( new Date().getMinutes(), "get minute / shows minute digit ")
-console.log( new Date().getSeconds(), "get second / shows second digit")
-console.log( new Date().getMilliseconds(), "get milisecond / shows milisecond digit")
+setInterval(() => {
+    d = new Date();
+    htime = d.getHours();
+    mtime = d.getMinutes();
+    stime = d.getSeconds();
+    hrotation = 30 * htime + mtime / 2;
+    mrotation = 6 * mtime;
+    srotation = 6 * stime;
 
-console.log( new Date().getDate(), "get date / shows tareekh")
-console.log( new Date().getDay(), "get day / shows no of the day")
-console.log( new Date().getMonth(), "get month / shows no of month")
-console.log( new Date().getFullYear(), "get year / shows year")
-console.log( new Date().getTimezoneOffset(), "get tome zone ofset ")
-console.log( new Date().getUTCDate(), "get UTC date ")
+    hour.style.transform = `rotate (${hrotation}deg)`;
+    minute.style.transform = `rotate (${mrotation}deg)`;
+    second.style.transform = `rotate (${srotation}deg)`;
+}, 1000);
+
+
