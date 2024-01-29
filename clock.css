@@ -10,28 +10,26 @@
 #hour,
 #minute,
 #second {
-  position:absolute;
+  position: absolute;
   background: black;
   border-radius: 25px;
+  transform-origin: bottom;
 }
 #hour {
   width: 1.45vw;
   height: 12vw;
   left: 19.25vw;
   top: 8vw;
-  background-color:black;
 }
 #minute {
   width: 0.85vw;
   height: 13vw;
   left: 19.6vw;
   top: 7vw;
-  background-color:black;
 }
 #second {
   width: 0.5vw;
   height: 14.5vw;
   left: 19.75vw;
-  top:5.5vw;
-  background-color:black;
+  top: 5.5vw;
 }
