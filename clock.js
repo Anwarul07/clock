@@ -14,14 +14,15 @@ setInterval(() => {
 
 
 
+
 setInterval(() => {
     d = new Date();
     htime = d.getHours();
     mtime = d.getMinutes();
     stime = d.getSeconds();
-    console.log(htime);
-    console.log(mtime);
-    console.log(stime);
+    console.log(`Hours : ${htime}`);
+    console.log(`Minutes : ${mtime}`);
+    console.log(`secods: ${stime}`);
     console.log("\n")   
 }, 1000);
 
