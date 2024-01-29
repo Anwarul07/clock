@@ -4,5 +4,34 @@
   height: 40vw;
   width: 40vw;
   background-size: 100%;
-  margin: 10vh auto;
+  margin: auto;
+  position: relative;
+}
+#hour,
+#minute,
+#second {
+  position:absolute;
+  background: black;
+  border-radius: 25px;
+}
+#hour {
+  width: 1.45vw;
+  height: 12vw;
+  left: 19.25vw;
+  top: 8vw;
+  background-color:black;
+}
+#minute {
+  width: 0.85vw;
+  height: 13vw;
+  left: 19.6vw;
+  top: 7vw;
+  background-color:black;
+}
+#second {
+  width: 0.5vw;
+  height: 14.5vw;
+  left: 19.75vw;
+  top:5.5vw;
+  background-color:black;
 }
