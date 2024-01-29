@@ -1,0 +1,8 @@
+.container {
+  background-image: url("/clock.png");
+  background-repeat: no-repeat;
+  height: 40vw;
+  width: 40vw;
+  background-size: 100%;
+  margin: 10vh auto;
+}
